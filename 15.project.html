@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Calculator</h1>
+        <p>Sum of two numbers</p>
+        <p id="result1"></p>
+        <p>Difference of two numbers</p>
+        <p id="result2"></p>
+        <p>Product of two numbers</p>
+        <p id="result3"></p>
+        <p>Division of two numbers</p>
+        <p id="result4"></p>
+        <p>Reminder of two numbers</p>
+        <p id="result5"></p>
+    </body>
+    <script>
+        var num1=25;
+        var num2=6;
+        var sum= num1+num2;
+        var difference= num1-num2;
+        var product= num1*num2;
+        var division= num1/num2;
+        var reminder= num1%num2;
+        document.getElementById("result1").innerHTML= "The total sum is= "+sum;
+        document.getElementById("result2").innerHTML= "The difference is= "+difference;
+        document.getElementById("result3").innerHTML= "The total product is= "+product;
+        document.getElementById("result4").innerHTML= "The divison is= "+division;
+        document.getElementById("result5").innerHTML= "The reminder is= "+reminder;
+    </script>
+</html>
